@@ -1,6 +1,6 @@
 charm_name: masakari-monitors
 tests:
-  - zaza.openstack.charm_tests.masakari.tests.MasakariTest
+  - zaza.charm_tests.masakari.tests.MasakariTest
 configure:
   - zaza.openstack.charm_tests.vault.setup.auto_inititialize
   - zaza.openstack.charm_tests.glance.setup.add_cirros_image
